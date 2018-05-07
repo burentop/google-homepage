@@ -1,0 +1,37 @@
+body {
+  -webkit-appearance: none;
+}
+input {
+  display: inline-block;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+li {
+  display: inline;
+  padding: 10px;
+}
+.search {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.search-input {
+  display: block;
+}
+.search img {
+  padding: 15px;
+  width: 15vw;
+}
+.search-button {
+  align-items: flex-start;
+  display: flex;
+  padding: 15px;
+}
+.top-left {
+  float: left;
+}
+.top-right {
+  float: right;
+}
