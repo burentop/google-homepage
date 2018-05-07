@@ -16,6 +16,7 @@ li {
   align-items: center;
   display: flex;
   flex-direction: column;
+  vertical-align: middle;
 }
 .search-input {
   display: block;
@@ -29,9 +30,16 @@ li {
   display: flex;
   padding: 15px;
 }
-.top-left {
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.top-left,
+.bottom-left {
   float: left;
 }
-.top-right {
+.top-right,
+.bottom-right {
   float: right;
 }
