@@ -15,7 +15,10 @@ li {
 .search {
   align-items: center;
   display: flex;
+  flex: 1;
   flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
   vertical-align: middle;
 }
 .search-input {
